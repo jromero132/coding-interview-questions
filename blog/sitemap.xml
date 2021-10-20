@@ -4,84 +4,84 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/</loc>
-<lastmod>2021-10-20T17:51:58-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2021-10-20T18:04:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/tags</loc>
-<lastmod>2021-10-20T17:51:58-00:00</lastmod>
+<loc>/tags</loc>
+<lastmod>2021-10-20T18:04:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/interviewers</loc>
-<lastmod>2021-10-20T17:51:58-00:00</lastmod>
+<loc>/interviewers</loc>
+<lastmod>2021-10-20T18:04:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/authors.html</loc>
-<lastmod>2021-10-20T17:51:58-00:00</lastmod>
+<loc>/authors.html</loc>
+<lastmod>2021-10-20T18:04:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/archives.html</loc>
-<lastmod>2021-10-20T17:51:58-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2021-10-20T18:04:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/interview/geeks-for-geeks/find-triplets-with-zero-sum</loc>
+<loc>/interview/geeks-for-geeks/find-triplets-with-zero-sum</loc>
 <lastmod>2021-10-21T17:30:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/interviewer/geeks-for-geeks</loc>
+<loc>/interviewer/geeks-for-geeks</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/tag/practice</loc>
+<loc>/tag/practice</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/tag/basic</loc>
+<loc>/tag/basic</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/tag/two-pointers</loc>
+<loc>/tag/two-pointers</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/tag/sorting-searching</loc>
+<loc>/tag/sorting-searching</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://jromero132.github.io/coding-interview-questions/author/jose-a-romero.html</loc>
+<loc>/author/jose-a-romero.html</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
