@@ -1,2 +1,8 @@
+# pelican plugins
+pelican-plugins
+
+# pycache
+__pycache__
+
 # virtual environment
-venv
+.venv
