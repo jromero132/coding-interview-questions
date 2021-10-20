@@ -4,91 +4,91 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2021-10-20T18:18:43-00:00</lastmod>
+<loc>/coding-interview-questions/</loc>
+<lastmod>2021-10-20T18:24:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/blog</loc>
-<lastmod>2021-10-20T18:18:43-00:00</lastmod>
+<loc>/coding-interview-questions/blog</loc>
+<lastmod>2021-10-20T18:24:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags</loc>
-<lastmod>2021-10-20T18:18:43-00:00</lastmod>
+<loc>/coding-interview-questions/tags</loc>
+<lastmod>2021-10-20T18:24:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/interviewers</loc>
-<lastmod>2021-10-20T18:18:43-00:00</lastmod>
+<loc>/coding-interview-questions/interviewers</loc>
+<lastmod>2021-10-20T18:24:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/authors.html</loc>
-<lastmod>2021-10-20T18:18:43-00:00</lastmod>
+<loc>/coding-interview-questions/authors.html</loc>
+<lastmod>2021-10-20T18:24:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2021-10-20T18:18:43-00:00</lastmod>
+<loc>/coding-interview-questions/archives.html</loc>
+<lastmod>2021-10-20T18:24:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/interview/geeks-for-geeks/find-triplets-with-zero-sum</loc>
+<loc>/coding-interview-questions/interview/geeks-for-geeks/find-triplets-with-zero-sum</loc>
 <lastmod>2021-10-21T17:30:00-04:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/interviewer/geeks-for-geeks</loc>
+<loc>/coding-interview-questions/interviewer/geeks-for-geeks</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/practice</loc>
+<loc>/coding-interview-questions/tag/practice</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/basic</loc>
+<loc>/coding-interview-questions/tag/basic</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/two-pointers</loc>
+<loc>/coding-interview-questions/tag/two-pointers</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/sorting-searching</loc>
+<loc>/coding-interview-questions/tag/sorting-searching</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/jose-a-romero.html</loc>
+<loc>/coding-interview-questions/author/jose-a-romero.html</loc>
 <lastmod>2021-10-21T17:30:00-05:29</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

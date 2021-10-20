@@ -1,5 +1,5 @@
 AUTHOR = "Jose Ariel Romero"
-SITEURL = "/"
+SITEURL = "/coding-interview-questions"
 SITENAME = "Coding Interview Questions"
 SITETITLE = SITENAME
 SITESUBTITLE = "A portfolio with solution and explanation of all coding interview questions I have taken while applying for a job or practicing."
