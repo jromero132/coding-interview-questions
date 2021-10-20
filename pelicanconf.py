@@ -66,9 +66,9 @@ SOCIAL = (
 MAIN_MENU = True
 MENUITEMS = (
     #("Archives", "/archives.html"),
-    ("Blog", "/blog"),
-    ("Interviewers", "/interviewers"),
-    ("Tags", "/tags"),
+    ("Blog", f"{SITEURL}/blog"),
+    ("Interviewers", f"{SITEURL}/interviewers"),
+    ("Tags", f"{SITEURL}/tags"),
 )
 
 DEFAULT_PAGINATION = 13
