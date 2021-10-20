@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.index_top %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle ads-responsive"
+       data-ad-client="{{ GOOGLE_ADSENSE.ca_id }}"
+       data-ad-slot="{{ GOOGLE_ADSENSE.ads.index_top }}"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+{% endif %}
+
+<article>
+  <div>
+    <p>
+      {{ _('Welcome to my portfolio with solution and explanation of all coding interview questions I have taken while applying for a job or practicing.') }}
+    </p>
+    
+    <p>
+      {{ _('Here is the list of interviewers and questions:') }}
+    </p>
+
+    <ul style="margin-top: -8px;">
+      {% for category, articles in categories | sort %}
+      <li>
+        <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }}) &nbsp;
+        <span class="circle-plus closed" data-toggle="collapse" data-target="{{ category.slug }}">
+          <span class="circle">
+            <span class="horizontal"></span>
+            <span class="vertical"></span>
+          </span>
+        </span>
+
+        <div id="{{ category.slug }}" class="expandable">
+          <ul>
+            {% for article in articles | sort %}
+            <li>
+              <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
+
+{% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.index_bottom %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle ads-responsive"
+       data-ad-client="{{ GOOGLE_ADSENSE.ca_id }}"
+       data-ad-slot="{{ GOOGLE_ADSENSE.ads.index_bottom }}"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+{% endif %}
+
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="collapse"]').on('click', function(){
+      let target = '#' + $(this).attr('data-target');
+      $(target).slideToggle('slow');
+    });
+    $('.circle-plus').on('click', function(){
+      $(this).toggleClass('opened');
+      $(this).toggleClass('closed');
+    });
+  });
+</script>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} &ndash; {{ _('Tag %(name)s', name=tag) }}{% endblock %}
+
+{% block content %}
+<article class="single">
+  <header>
+    <h1>{{ _('Coding Interview Questions tagged as %(name)s', name=tag) }} ({{ articles|count }})</h1>
+  </header>
+  <div>
+    <ul>
+      {% for article in articles|sort %}
+      <li>
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
+{% endblock %}
